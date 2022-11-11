@@ -36,7 +36,19 @@ resources we need:
         amount: integer}
     
     Request example:
+    post('http://localhost:5000/transaction',
+        data={
+            "sender":"Alexey",
+            "receiver":"Dima",
+            "amount":25
+            }
+        ).json()
 
-
-    Response example:
+    Response example(200):
+    {
+        'sender': 'Alexey',
+        'receiver': 'Dima',
+        'amount': 25,
+        'message': 'Alexey sent $25 to Dima'
+        }
     
