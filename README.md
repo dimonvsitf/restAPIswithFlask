@@ -1,3 +1,5 @@
+This README file refers to banking.py app. Please ignore api.py - I used it to follow along a tutorial from https://flask-restful.readthedocs.io/en/latest/quickstart.html
+
 Objective: create a TABLE that keeps track of funds moving between wallets.
 
 in the ledger, we want to know:
